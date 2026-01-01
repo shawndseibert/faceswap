@@ -10,9 +10,9 @@ export const ATTRIBUTES: Attribute[] = [
   },
   { 
     id: 'Pose', 
-    label: 'Pose & Tilt', 
+    label: 'Body & Stance', 
     icon: 'fa-user-ninja', 
-    description: 'Re-orient the head, neck, and shoulder alignment to match the reference angle.' 
+    description: 'Transfer the full skeletal posture, standing position, and hand placement from the reference.' 
   },
   { 
     id: 'Lighting', 
@@ -21,10 +21,10 @@ export const ATTRIBUTES: Attribute[] = [
     description: 'Transfer the shadow depth, light direction, and color grade of the reference scene.' 
   },
   { 
-    id: 'Accessories', 
-    label: 'Add-ons', 
-    icon: 'fa-glasses', 
-    description: 'Transfer eyewear, headwear, or facial jewelry seamlessly onto the target.' 
+    id: 'Outfit', 
+    label: 'Full Outfit', 
+    icon: 'fa-shirt', 
+    description: 'Replace the clothing of the target with the exact outfit, fabrics, and gear worn by the reference.' 
   },
   { 
     id: 'Hairstyle', 
