@@ -1,0 +1,7 @@
+{
+  "name": "FaceSwap AI - Attribute Transfer",
+  "description": "Transfer specific attributes like expressions, poses, or styles from a reference photo to your target image while maintaining identity.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
